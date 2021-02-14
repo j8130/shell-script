@@ -22,6 +22,10 @@ echo " ————————————————————"
 echo " | author：jsy       |"
 echo " ————————————————————"
 
+# 判断是否有源文件
+[[ ! -e /root/app/jdk-8u181-linux-x64.tar.gz ]] && echo -e "\n 哎呀……文件不存在呀 文件路径： ${red}/root/app/jdk-8u181-linux-x64.tar.gz ${none} ${yellow}请复制文件(^_^) ${none}\n" && exit 1
+
+
 
 sleep 3
 

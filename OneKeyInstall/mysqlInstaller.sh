@@ -24,6 +24,10 @@ echo " ————————————————————"
 # 判断Root用户
 [[ $(id -u) != 0 ]] && echo -e "\n 哎呀……请使用 ${red}root ${none}用户运行 ${yellow}~(^_^) ${none}\n" && exit 1
 
+# 判断是否有源文件
+[[ ! -e /root/app/mysql-5.7.29-el7-x86_64.tar.gz ]] && echo -e "\n 哎呀……文件不存在呀 文件路径： ${red}/root/app/mysql-5.7.29-el7-x86_64.tar.gz ${none} ${yellow}请复制文件(^_^) ${none}\n" && exit 1
+
+
 echo "开始安装MySQL"
 
 echo "1.解压及创建目录"
