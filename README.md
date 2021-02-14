@@ -4,3 +4,17 @@
 
 
 
+## jdk
+
+~~~shell
+bash <(curl -s -k -L https://raw.githubusercontent.com/j8130/shell-script/master/OneKeyInstall/jdkInstaller.sh)
+~~~
+
+## MySQL
+
+~~~shell
+bash <(curl -s -k -L https://raw.githubusercontent.com/j8130/shell-script/master/OneKeyInstall/mysqlInstaller.sh)
+~~~
+
+
+
