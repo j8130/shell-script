@@ -18,3 +18,18 @@ bash <(curl -s -k -L https://raw.githubusercontent.com/j8130/shell-script/master
 
 
 
+
+
+
+
+## 常用操作
+
+~~~shell
+# 获取前一天的日期 如 20200101
+day=`date -d '1 days ago'"+%Y%m%d"`
+echo day
+
+# HOME_DIR=`dirname $0`
+
+~~~
+
